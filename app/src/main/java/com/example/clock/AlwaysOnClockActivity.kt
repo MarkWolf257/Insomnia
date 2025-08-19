@@ -55,7 +55,7 @@ fun AlwaysOnClockResponsiveScreen() {
             modifier = Modifier.fillMaxSize(),
             contentAlignment = Alignment.Center
         ) {
-            val fontSize = (maxWidth.value * 0.48).sp
+            val fontSize = (this.maxWidth.value * 0.48).sp
             ClockText(fontSize = fontSize)
         }
     }
